@@ -20,10 +20,7 @@ public class ServiceY {
                     }
                 }
                 if (size%2 == 0) {
-                    if (row >= Math.round(size/2) && (col == (size-1) / 2) ){
-                        appender = "*";
-                    }
-                    if (row >= Math.round(size/2) && (col == (size) / 2) ){
+                    if (row >= Math.round(size/2) && ((col == (size-1) / 2) || (col == (size) / 2)) ){
                         appender = "*";
                     }
                 }
